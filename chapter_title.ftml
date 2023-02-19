@@ -1,0 +1,45 @@
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@900&display=swap');
+
+.boxL{
+  float: left;
+  font-size: 20px;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.boxR{
+  float: Right;
+  text-align: right;
+  font-family: 'Noto Serif JP', serif;
+}
+
+.lineB{
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 99%;
+}
+
+.lineS{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 96%;
+}
+.a{
+    font-family: 'Noto Serif JP';
+}
+[[/module]]
+
+[[div_ class="boxL"]]
+[[span class="lineB"]]████/██/██[[/span]]
+[[span class="lineS"]]██████ (GMT)[[/span]]
+[[/div]]
+
+[[div_ class="boxR"]]
+[[span class="lineS"]]LOCATION[[/span]]
+[[span class="lineB"]]more detailed location[[/span]]
+[[/div]]
+@@@@
+[[div style="border-bottom:2px solid #777; margin-top: 32px; margin-bottom:1px;"]]
+[[/div]]
+[[div style="border-bottom:1px solid #777;"]]
+[[/div]]
