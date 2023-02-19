@@ -1,0 +1,61 @@
+[[module CSS]]
+@import url('https://fonts.googleapis.com/css2?family=Murecho:wght@600&display=swap');
+
+.omolike {
+  margin: 20px 0;
+  padding: 0;
+  border: 0;
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.omokao {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: inline-grid;
+  height: 92px;
+  width: 85px;
+  vertical-align: baseline;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+  
+  grid-template-columns: 2px 81px 2px;
+  grid-template-rows: 3px 73px 8px 8px;
+}
+
+.omokao img {
+  margin: 0;
+  padding: 0;
+  height: 77px;
+  width: 77px;
+  grid-column-start: 2;
+  grid-row-start: 2;
+  
+  border: solid black 3.4px;
+  border-radius: 40px;
+}
+
+.omokao .omoname {
+  align-self: flex-end;
+  grid-column-start: 2;
+  grid-row: 3;
+  font-family: 'Murecho';
+  text-shadow: white 1px 1px, white -1px 1px, white 1px -1px, white -1px -1px;
+  z-index: 1;
+}
+
+[[/module]]
+
+
+[[module ListPages separate="no" name="scp-4431-re"]]
+[[div_ class="omolike"]]
+[[div_ class="omokao"]]
+[[image http://www.wikidot.com/avatar.php?userid=%%created_by_id%% style="border-color: #ff0000;"]]
+[[div_ class="omoname" style="color: #ff0000;"]]
+%%created_by%%
+[[/div]]
+[[/div]]ahoge
+[[/div]]
+[[/module]]
