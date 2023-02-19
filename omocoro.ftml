@@ -33,7 +33,7 @@
   grid-column-start: 2;
   grid-row-start: 2;
   
-  border: solid black 3.4px;
+  border: solid black 3.8px;
   border-radius: 40px;
 }
 
@@ -59,3 +59,26 @@
 [[/div]]ahoge
 [[/div]]
 [[/module]]
+
+[[module ListPages separate="no" name="scp-002"]]
+[[div_ class="omolike"]]
+[[div_ class="omokao"]]
+[[image http://www.wikidot.com/avatar.php?userid=%%created_by_id%% style="border-color: #00558f;"]]
+[[div_ class="omoname" style="color: #00558f;"]]
+%%created_by%%
+[[/div]]
+[[/div]]@@[[module ListPages separate="no" name="URL"]]@@の**URL**をアイコンの人が作成したページのURLにすると、Wikidot IDとアイコンが表示されます。
+[[/div]]
+[[/module]]
+
+
+
+[[div class="blockquote"]]
+オモコロフォーマット
+Source: http://scp-jp-sandbox3.wikidot.com/draft:2831477-5-b519
+公開年: 2020
+ライセンス: CC BY-SA 3.0
+著者: [[*user fumeinadebaisu]]
+改変: [[*user mishary]]
+再改変: [[*user sendoh-oroka]]
+[[/div]]
